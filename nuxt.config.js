@@ -18,7 +18,10 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css", crossorigin: "anonymous" },
+      { rel: "stylesheet", href: "https://octobus.cloud/frameapp/css/app.css", media: "all" },
+      { rel: "stylesheet", href: "https://octobus.cloud/frameapp/print.css", media: "print" }
     ]
   },
 

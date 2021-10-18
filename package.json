@@ -6,14 +6,18 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "predeploy": "nuxt generate",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.15.1",
+    "mypackage": "^0.1.0",
     "nuxt": "^2.15.8",
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.1"
+    "@nuxtjs/vuetify": "^1.12.1",
+    "gh-pages": "^3.2.3"
   }
 }
